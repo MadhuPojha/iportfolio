@@ -9,12 +9,7 @@ export default function Skills() {
     <section className={styles.container} id="skills">
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("aboutImage.png")}
-          
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
+        
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             

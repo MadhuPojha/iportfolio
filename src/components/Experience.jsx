@@ -9,11 +9,7 @@ export default function Experience(){
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>experience</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
+      
         <ul className={styles.aboutItems}>
           <div className={styles.aboutItemText}>
     
