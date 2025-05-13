@@ -1,8 +1,6 @@
 import React from "react";
-
-//import styles from "./CSS/Hero.module.css";
 import styles from "../CSS/Hero.module.css";
-import { getImageUrl } from "../utils";
+import my_img from '../assets/my_img.jpg';
 
 export default function Hero(){
   return (
@@ -20,7 +18,7 @@ export default function Hero(){
         </a>
       </div>
       <img
-        src={"./src/assets/my_img.jpg"}
+        src={my_img}
         alt="Hero image of me"
         className={styles.heroImg}
       />

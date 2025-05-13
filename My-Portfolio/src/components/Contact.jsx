@@ -1,8 +1,8 @@
 import React from "react";
-
-//import styles from "./CSS/Contact.module.css";
 import styles from "../CSS/Contact.module.css";
-import { getImageUrl } from "../utils";
+import Contact_linkedin from '../assets/Contact_linkedin.png';
+import Contact_github from '../assets/Contact_github.png';
+import Contact_email from '../assets/Contact_email.png';
 
 export default function Contact(){
   return (
@@ -12,18 +12,18 @@ export default function Contact(){
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("Contact_email.png")} alt="Email icon" />
+          <img src={Contact_email} alt="Email icon" />
           <a href="mailto:myemail@email.com">mpriya1201@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={getImageUrl("Contact_linkedin.png")}
+            src={Contact_linkedin}
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/in/madhu-priyadarshni-ojha-169a1a22/">linkedin.com/MadhuPojha</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("Contact_github.png")} alt="Github icon" />
+          <img src={Contact_github} alt="Github icon" />
           <a href="https://github.com/MadhuPojha">github.com/MadhuPojha</a>
         </li>
       </ul>
