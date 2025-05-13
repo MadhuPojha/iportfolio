@@ -10,7 +10,7 @@ export default function About() {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("aboutImage.png")}
+          src={"/src/assets/aboutImage.png"}
           
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
