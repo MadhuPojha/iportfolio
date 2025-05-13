@@ -20,7 +20,7 @@ export default function Hero(){
         </a>
       </div>
       <img
-        src={getImageUrl("my_img.jpg")}
+        src={"./src/assets/my_img.jpg"}
         alt="Hero image of me"
         className={styles.heroImg}
       />
