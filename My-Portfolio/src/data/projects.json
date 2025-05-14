@@ -1,21 +1,21 @@
 [
   {
     "title": "Online Clothing Store",
-    "imageSrc": "./src/assets/Proj_Shopping.jpg",
+    "imageSrc": "/portfolio/src/assets/Proj_Shopping.jpg",
     "description": "Django-based online store with browsing, shopping, and admin inventory management features.",
     "skills": ["Python", "Django", "JS", "HTML", "CSS", "SQLite"],
     "link": "https://github.com/MadhuPojha/Clothing-Store"
   },
   {
     "title": "Phone-Directory",
-    "imageSrc": "./src/assets/Proj_PhDir.jpg",
+    "imageSrc": "/portfolio/src/assets/Proj_PhDir.jpg",
     "description": "React-based Phone Directory app for learning, with add/delete subscriber management features.",
     "skills": ["React", "CSS", "HTML"],
     "link": "https://github.com/MadhuPojha/phone-directory-ReactJS-"
   },
   {
     "title": "Weather-App",
-    "imageSrc": "./src/assets/Proj_Weather.jpg",
+    "imageSrc": "/portfolio/src/assets/Proj_Weather.jpg",
     "description": "A Django-based Weather App that fetches real-time weather data using external APIs.",
     "skills": ["Python", "Django", "HTML", "SQLite"],
     "link": "https://github.com/MadhuPojha/django-weather-app"
