@@ -2,26 +2,22 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--color-primary);
-  color: var(--color-text);
+  padding: 10px 15px;
+  font-size: 20px;
+  color: white;
+  background-color: #1a73e8;
   border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  font-size: 24px;
   cursor: pointer;
-  display: none;
-  align-items: center;
-  justify-content: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 0; /* Initially hidden */
   transition: opacity 0.3s ease-in-out;
 }
 
 .scrollToTop.visible {
-  display: flex;
-  opacity: 1;
+  opacity: 1; /* Make visible when scrolled down */
 }
 
 .scrollToTop:hover {
-  background-color: var(--color-secondary);
+  background-color: #1558b0;
 }
